@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-blog",
+          title: "blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
         },{id: "nav-cv",
           title: "CV",
           description: "",
@@ -30,18 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-my-research-journey-in-3d-human-digitization",
-        
-          title: "My Research Journey in 3D Human Digitization",
-        
-        description: "A brief overview of my research path from object detection to 3D human reconstruction and 4D scene understanding.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/research-journey/";
-          
-        },
-      },{id: "news-poseur-is-accepted-by-eccv-2022-sparkles",
+        },{id: "news-poseur-is-accepted-by-eccv-2022-sparkles",
           title: 'Poseur is accepted by ECCV 2022. :sparkles:',
           description: "",
           section: "News",},{id: "news-point-teaching-is-accepted-by-aaai-2023-sparkles",
